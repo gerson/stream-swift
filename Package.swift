@@ -6,6 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GetStream",
     platforms: [
+        .macOS(.v10_12),
         .iOS(.v11)
     ],
     products: [
